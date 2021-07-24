@@ -23,8 +23,20 @@ class ClassDiary {
         console.log('---------------------');
     }
 
-    schedule() {
+    addLesson(subjectName) {
+        this.lessonsList.push({
+            subject: subjectName,
+        });
+        //console.log(this.lessonsList);
+    }
 
+    printLessonsList() {
+        console.log(`Class "${this.className}" has those lessons:`);
+        for (let i = 0; i < this.lessonsList.length; i++) {
+            const lesson = this.lessonsList[i];
+            console.log(`${i + 1}. ${lesson.subject}`);
+        }
+        console.log('---------------------');
     }
 }
 

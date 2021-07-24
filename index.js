@@ -21,18 +21,20 @@ school.printStudentsList();
 // 2. Petras Petaitis
 // 3. Juozas Juozaitis
 // 4.  ....
-/*
+
 school.addLesson('Lietuviu kalba');
 school.addLesson('Matematika');
 school.addLesson('Fizika');
 school.addLesson('Chemija');
 school.addLesson('Geografija');
 school.addLesson('Istorija');
-// Class "12A" has those lessons: 
-// Lietuviu kalba
-// Matematika
-// ...
 
+school.printLessonsList();
+// Class "12A" has those lessons: 
+// 1.  Lietuviu kalba
+// 2. Matematika
+// 3. ...
+/*
 school.addMarks(1, 10, 'liepos 23', 'matematika'); 
 // Liepos 23d. Jonas Jonaitis gavo 10 is matematikos. 
 school.addMarks(1, 7, 'liepos 23', 'geografija'); 
