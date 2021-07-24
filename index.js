@@ -1,12 +1,8 @@
-// čia pateikti visus required/import metodus
-// susikurti pavyzdinius objektus iš class
-// parodyti, jog sukurti metodai tikrai veikia, t.y.
-// prieš tai suvesta informacija turi įtaką likusiems
-// kviečiamiems metodams
+// čia dėti visą pavyzdinį kodą, kuris turėtų paaiškinti, kaip naudotis jūsų sukurtu kodu
 
-const Schedule = require('./Schedule');
+const ClassDiary = require('./ClassDiary');
 
-const school = new Schedule('Sunrise', 9);
+const school = new ClassDiary('Sunrise', 9);
 
 school.intro();
 // This is "Sunrise" school and it's schooling schedule. 

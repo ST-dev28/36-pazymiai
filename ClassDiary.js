@@ -1,4 +1,4 @@
-class Schedule {
+class ClassDiary {
     constructor(schoolName, lessonStart) {
         this.name = schoolName;
         this.lessonStart = lessonStart;
@@ -20,4 +20,4 @@ class Schedule {
     }
 }
 
-module.exports = Schedule;
+module.exports = ClassDiary;

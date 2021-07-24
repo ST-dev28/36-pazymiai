@@ -1,21 +1,41 @@
-# Pamokų tvarkaraščio valdymo sistema
+# Klasės dienynas
 
-## Reikalavimai:
+## Reikalavimai
 
-- reikia galimybės kurti pamokų tvarkaraščio laikus, t.y. jog būtų nurodyta, kada prasideda pamoka ir kada baigiasi;
+- reikia galėti nurodyti klasės pavadinimą; tai turėtų būti laisva forma pateikiama informacija
 
-- šis laikų tvarkaraštis iš esmės sudaromas nurodant kada prasideda pamokos (pvz.: 9 val) ir po to nurodant pertraukų trukmes
+- į dienyną reikia galėti prodėti mokinius (po vieną)
 
-- pamokų trukmė visada yra vienodą ir ją taip pat norėtume galėti reguliuoti, bet pagal nutylėjimą, ji trunka 45min
+- apie mokinį, viskas ką reikia žinoti yra tik vardas
 
-- reikalinga, galėti išspausdinti visą tvarkaraštį maždaug tokiu formatu:
+- reikia galėti nurodyti nurodyti kokios pamokos vyksta (lt kalbos, matematika, fizika ir pan)
+
+- reikia galėti pridėti pažymius, nurodant datą, koks mokinys ir kokiai pamokai
+
+- reikia galėti išspaudinti, visus mokinio pažymius sugrupuotus pagal pamokas
+
+- reikia galėti išspaudinti, visus mokinio pažymių vidurkius, sugrupuotus pagal pamokas
+
+Pavyzdinės lentelės:
 
 ```
-1. 9:00 - 9:45
-2. 9:55 - 10:40
-3: 10:55 - 11:40
+Jono pažymiai
+==========================
+Lietuvių kalba: 7, 8, 9
+Matematika    : 6, 9, 4, 8
+Fizika        : 10, 5
+==========================
 ```
 
-- būtų labai gerai, jei visi jūsų sukurti metodai ir kintamieji būtų lengvai supranti, t.y. iš pavadinimo pavyksta suprasti ką turi daryti ir ką iš tiesų daro 👍
+```
+Jono pažymių vidurkis
+=====================
+Lietuvių kalba: 8
+Matematika    : 6.75
+Fizika        : 7.5
+=====================
+```
 
-- metodų pavadinimai ir visas kodas - angliškas
+- lentelėje, dvytaškiai turi būti viename stulpelyje
+
+- lentelėje, lygybės simboliai turi būti iki lentelės galo, kuris nusakomas pagal ilgiausia turinio eilutę
