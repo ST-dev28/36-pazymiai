@@ -30,31 +30,23 @@ school.addLesson('Geografija');
 school.addLesson('Istorija');
 
 school.printLessonsList();
-// Class "12A" has those lessons: 
+// Class "12A" has those lessons:
 // 1.  Lietuviu kalba
 // 2. Matematika
 // 3. ...
 /*
-school.addMarks(1, 10, 'liepos 23', 'matematika'); 
-// Liepos 23d. Jonas Jonaitis gavo 10 is matematikos. 
-school.addMarks(1, 7, 'liepos 23', 'geografija'); 
-// Liepos 23d. Jonas Jonaitis gavo 7 is geografijos. 
-school.addMarks(1, 9, 'liepos 26', 'matematika'); 
-// Liepos 26d. Jonas Jonaitis gavo 9 is matematikos.
-school.addMarks(2, 5, 'liepos 24', 'fizika');
-// Liepos 24d. Petras Petaitis gavo 5 is fizikos.
-school.addMarks(2, 10, 'liepos 28', 'fizika');
-// Liepos 28d. Petras Petaitis gavo 10 is fizikos.       
-school.addMarks(3, 8, 'liepos 25', 'istorija');
-// Liepos 25d. Juozas Juozaitis gavo 8 is istorijos. 
-school.addMarks(3, 9, 'liepos 25', 'lietuviu kalba');
-// Liepos 25d. Juozas Juozaitis gavo 9 is lietuviu kalbos.
-school.addMarks(3, 8, 'liepos 27', 'lietuviu kalba');
-// Liepos 27d. Juozas Juozaitis gavo 8 is lietuviu kalbos.     
+school.addMarks('Jonas Jonaitis', 'Fizika', 10, '2021-05.05');
+school.addMarks('Jonas Jonaitis', 'Lietuviu kalba', 7, '2021-05.05');
+school.addMarks('Jonas Jonaitis', 'Matematika', 6, '2021-05.05');
+school.addMarks('Petras Petaitis', 'Matematika', 9, '2021-05.06');
+school.addMarks('Petras Petaitis', 'Lietuviu kalba', 8, '2021-05.06');
+school.addMarks('Juozas Juozaitis', 'Matematika', 4, '2021-05.08');
+school.addMarks('Juozas Juozaitis', 'Istorija', 8, '2021-05.08');
+school.addMarks('Juozas Juozaitis', 8, 'Lietuviu kalba', 9, '2021-05.08');
 
-school.marks(1);
+school.marks('Jonas Jonaitis');
 // KOMENTARAS: lentelėje, dvitaškiai turi būti viename stulpelyje
-// lentelėje, lygybės simboliai turi būti iki lentelės galo, kuris nusakomas 
+// lentelėje, lygybės simboliai turi būti iki lentelės galo, kuris nusakomas
 //pagal ilgiausia turinio eilutę
 
 // Jono Jonaicio pazymiai:
@@ -63,22 +55,22 @@ school.marks(1);
 // Geografija: 7
 //==========================
 
-school.marks(2);
+school.marks('Petras Petaitis');
 // Petro Petraicio pazymiai:
 //==========================
 // Fizika: 5, 10
 //==========================
 
-school.marks(3);
+school.marks('Juozas Juozaitis');
 // Juozo Juozaicio pazymiai:
 //==========================
 // Istorija: 8
 // Lietuviu kalba: 9, 8
 //==========================
 
-school.marksAverage(3);
+school.marksAverage('Juozas Juozaitis');
 // KOMENTARAS: lentelėje, dvitaškiai turi būti viename stulpelyje
-// lentelėje, lygybės simboliai turi būti iki lentelės galo, kuris nusakomas 
+// lentelėje, lygybės simboliai turi būti iki lentelės galo, kuris nusakomas
 //pagal ilgiausia turinio eilutę
 
 // Juozo Juozaicio pazymiu vidurkis:

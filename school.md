@@ -4,7 +4,7 @@
 
 - reikia galėti nurodyti klasės pavadinimą; tai turėtų būti laisva forma pateikiama informacija
 
-- į dienyną reikia galėti prodėti mokinius (po vieną)
+- į dienyną reikia galėti pridėti mokinius (po vieną)
 
 - apie mokinį, viskas ką reikia žinoti yra tik vardas
 
@@ -36,6 +36,6 @@ Fizika        : 7.5
 =====================
 ```
 
-- lentelėje, dvytaškiai turi būti viename stulpelyje
+- lentelėje, dvitaškiai turi būti viename stulpelyje
 
 - lentelėje, lygybės simboliai turi būti iki lentelės galo, kuris nusakomas pagal ilgiausia turinio eilutę
